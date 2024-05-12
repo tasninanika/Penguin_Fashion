@@ -21,13 +21,13 @@
 </head>
 <body">
     <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
-        <nav class="grid grid-cols-2 gap-[400px]">
-            <div class="w-[300px] h-[100x]">
+        <nav class="grid grid-cols-1 lg:grid-cols-2 lg:gap-[400px]">
+            <div class="w-[300px] h-[100x] mt-[-40px] mb-[70px] lg:mt-0 lg:mb-0">
                 <img src="icons/logo.png" alt="">
             </div>
             <div>
                 <ul>
-                    <li class="font-roboto text-base font-medium">
+                    <li class="font-roboto text-base font-medium hidden lg:visible">
                         <a class="mr-[30px]" href="">Home</a>
                         <a class="mr-[30px]" href="">Products</a>
                         <a class="mr-[30px]" href="">About us</a>
@@ -42,19 +42,19 @@
                 <h1 class="text-7xl uppercase font-bebas"><span  class="text-[#FABE4C]">Be the Penguins</span>
                     <br>
                     of Winter</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="w-[357px] h-[52px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019]  flex py-4 px-9 rounded-xl uppercase text-white font-medium gap-2"><img src="icons/shopping-cart 1.svg" alt="">
                        BUY NOW</button>
             </div>
-            <div>
+            <div class="mt-[50px] lg:mt-0">
                 <img src="images/model.png" alt="">
             </div>
         </div>
     </header>
     <main class="max-w-7xl mx-auto">
         <!-- women jacket section -->
-        <section class="py-12">
-            <h3 class="font-bebas text-5xl text-[#363958]">W0Man Jacket</h3>
+        <section class="py-12 pl-7 lg:pl-0 ">
+            <h3 class="font-bebas text-5xl text-[#363958] text-center lg:text-start mr-8 lg:mr-0">W0Man Jacket</h3>
             <!-- jackets container -->
             <div class="font-roboto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8">
                 <div class="space-y-3 drop-shadow-lg w-[370px] h-[550px] shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)] rounded-[20px] bg-[#FFF]">
@@ -100,8 +100,8 @@
             </div>
         </section>
         
-        <section class="py-12">
-                <h3 class="font-bebas text-5xl text-[#363958]">Man Jacket</h3>
+        <section class="py-12 pl-7 lg:pl-0">
+                <h3 class="font-bebas text-5xl text-[#363958] text-center lg:text-start mr-8 lg:mr-0">Man Jacket</h3>
                 <!-- jackets container -->
                 <div class="font-roboto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8">
                     <div class="space-y-3 drop-shadow-lg w-[370px] h-[550px] shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)] rounded-[20px] bg-[#FFF]">
@@ -146,37 +146,38 @@
                     </div>
                 </div>
         </section>
-        <section class=" grid lg:grid-cols-2 py-[130px]">
-            <div class="flex flex-col gap-[16px] ml-[50px]">
-                <div class="flex w-[489px] h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
-                    <div class="w-[78px] h-[82px] mt-[26px]">
-                        <img class="ml-[27px]" src="icons/house.png" alt="">
+        <section class=" lg:grid  lg:grid-cols-2 py-[130px] flex flex-col-reverse">
+            <div class="flex flex-col mt-[60px] ml-[26px] gap-[25px] lg:ml-[50px]">
+                <div class="lg:flex  w-[373px] h-[280px] lg:w-[489px] lg:h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
+                    <div class="w-[78px] h-[82px] lg:mt-[26px] mt-[30px]">
+                        <img class="lg:ml-[27px] ml-[150px]" src="icons/house.png" alt="">
                     </div>
                     <div>
-                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px]">Find the Perfect Fit</h4>
-                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base">Everybody is different, which is why we offer styles for every body.</p>
+                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px] text-center lg:text-start">Find the Perfect Fit</h4>
+                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base text-center ml-[50px] lg:text-start lg:ml-0 ">Everybody is different, which is why we offer styles for every body.</p>
                     </div>
                 </div>
-                <div class="flex w-[489px] h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
-                    <div class="w-[78px] h-[82px] mt-[26px]">
-                        <img class="ml-[27px]" src="icons/box.png" alt="">
+                <div class="lg:flex  w-[373px] h-[280px] lg:w-[489px] lg:h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
+                    <div class="w-[78px] h-[82px] lg:mt-[26px] mt-[30px]">
+                        <img class="lg:ml-[27px] ml-[150px]" src="icons/box.png" alt="">
                     </div>
                     <div>
-                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px]">Free Exchanges</h4>
-                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base">One of the many reasons you can shop with peace of mind.</p>
+                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px] text-center lg:text-start">Free Exchanges</h4>
+                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base text-center ml-[50px] lg:text-start lg:ml-0 ">One of the many reasons you can shop with peace of mind.</p>
                     </div>
                 </div>
-                <div class="flex w-[489px] h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md  shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
-                    <div class="w-[78px] h-[82px] mt-[26px]">
-                        <img class="ml-[27px]" src="icons/question.png" alt="">
+                <div class="lg:flex  w-[373px] h-[280px] lg:w-[489px] lg:h-[135px] gap-[55px] rounded-[20px] bg-[#FFF] drop-shadow-md shadow-[0px 10px 30px 0px rgba(0, 0, 0, 0.05)]">
+                    <div class="w-[78px] h-[82px] lg:mt-[26px] mt-[30px]">
+                        <img class="lg:ml-[27px] ml-[150px]" src="icons/question.png" alt="">
                     </div>
                     <div>
-                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px]">Contact Our Seller</h4>
-                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base">They are here to help you. That's quite literally what we pay them for.</p>
+                        <h4 class="text-[#363958] font-roboto text-2xl font-bold mb-[14px] mt-[20px] text-center lg:text-start">Contact Our Seller</h4>
+                        <p class="w-[276px] h-[52px] text-[#3E3E3E] font-roboto text-base text-center ml-[50px] lg:text-start lg:ml-0 ">They are here to help you. That's quite 
+                        literally what we pay them for.</p>
                     </div>
                 </div>
             </div>
-            <div class="mt-[20px] w-[90%]">
+            <div class="lg:mt-[20px] w-[90%] mt-[-80px] ml-6 order-1">
                 <img src="images/shopping.png" alt="">
             </div>
         </section>
